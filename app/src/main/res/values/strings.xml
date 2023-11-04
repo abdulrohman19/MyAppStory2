@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyAppStory</string>
+    <string name="name_string">Name</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Password</string>
+    <string name="confirm_password_string">Confirm Password</string>
+    <string name="login_string">Login</string>
+    <string name="logout_string">Logout</string>
+    <string name="register_string">Register</string>
+    <string name="add_content_string">Add Content</string>
+    <string name="user_avatar_string">User Photo</string>
+    <string name="user_name_string">User Name</string>
+    <string name="user_desc_string">Story Description</string>
+    <string name="camera_string">Camera</string>
+    <string name="gallery_string">Gallery</string>
+    <string name="upload_string">Upload</string>
+    <string name="maps_string">Maps</string>
+    <string name="retry_string">Try Again</string>
+    <string name="your_story_string">Your Story...</string>
+
+    <string name="reg_success_string">Register successful. Please log in</string>
+    <string name="reg_fail_string">Register failed. Please try again or adjust your email to another email.</string>
+    <string name="log_fail_string">Login failed. Please try again or adjust your email or password.</string>
+    <string name="pass_invalid_string">Password is not correct</string>
+    <string name="pass_valid_string">The password is correct</string>
+    <string name="email_invalid_string">Email is not correct</string>
+    <string name="title_activity_maps_string">MapsActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

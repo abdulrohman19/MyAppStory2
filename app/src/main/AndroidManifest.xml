@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyAppStory"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD3Sb8qa54pq08Ij8Iw9vPwhXEDl3dImZ0" />
+
+        <activity
+            android:name=".myAct.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps"/>
+
+        <activity
+            android:name=".myAct.AddAct"
+            android:exported="false" />
+        <activity
+            android:name=".myAct.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myAct.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myAct.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myAct.RegisterAct"
+            android:exported="false" />
+        <activity
+            android:name=".myAct.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
